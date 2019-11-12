@@ -7,6 +7,8 @@ const TArea = styled.textarea`
   display: block;
   width: 31rem;
   height: 20rem;
+  box-shadow: 8px 8px black;
+  font-family: monospace;
 
   @media (max-width: 768px) {
     width: 15rem;

@@ -10,6 +10,7 @@ const Field = styled.input`
   font-size: 1rem;
   text-align: center;
   font-family: monospace;
+  box-shadow: 8px 8px black;
 
   @media (max-width: 768px) {
     width: 13rem;

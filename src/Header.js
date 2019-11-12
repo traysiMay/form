@@ -2,6 +2,14 @@ import React from "react";
 import raptor from "./raptoricon.png";
 import styled from "styled-components";
 
+const Wrap = styled.div`
+  display: block;
+  width: 80%;
+  margin: auto;
+  border: 0.3rem solid white;
+  margin: 1rem auto;
+`;
+
 const Container = styled.div`
   text-align: center;
   color: white;
@@ -11,6 +19,7 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 9px 10px #fbefef;
 
   @media (max-width: 768px) {
     font-size: 20px;
@@ -23,12 +32,12 @@ const Image = styled.img`
 
 const Header = () => {
   return (
-    <div style={{ display: "block", margin: "auto" }}>
+    <Wrap>
       <Container>
         <Image src={raptor}></Image>
         GUILD APPLICATION
       </Container>
-    </div>
+    </Wrap>
   );
 };
 
