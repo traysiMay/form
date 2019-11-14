@@ -20,7 +20,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
   box-shadow: 9px 10px #fbefef;
-
+  text-shadow: 5px 3px #9d8f8f;
   @media (max-width: 768px) {
     font-size: 20px;
   }

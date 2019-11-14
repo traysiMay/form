@@ -15,11 +15,11 @@ const TArea = styled.textarea`
     height: 12rem;
   }
 `;
-const TextArea = ({ title }) => {
+const TextArea = ({ title, updateInput }) => {
   return (
     <div>
       <Title>{title}</Title>
-      <TArea></TArea>
+      <TArea name={title} onChange={updateInput}></TArea>
     </div>
   );
 };

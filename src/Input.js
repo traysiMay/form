@@ -17,11 +17,13 @@ const Field = styled.input`
   }
 `;
 
-const Input = ({ title }) => {
+const Input = ({ title, updateInput }) => {
   return (
-    <div>
-      <Title>{title}</Title>
-      <Field />
+    <div style={{ marginBottom: "2rem" }}>
+      <Title>
+        <div>{title}</div>
+      </Title>
+      <Field name={title} onChange={updateInput} />
     </div>
   );
 };
