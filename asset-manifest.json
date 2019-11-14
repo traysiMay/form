@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/form/static/js/main.cc61d3f7.chunk.js",
-    "main.js.map": "/form/static/js/main.cc61d3f7.chunk.js.map",
-    "runtime-main.js": "/form/static/js/runtime-main.77cfa2be.js",
-    "runtime-main.js.map": "/form/static/js/runtime-main.77cfa2be.js.map",
-    "static/js/2.2fdda272.chunk.js": "/form/static/js/2.2fdda272.chunk.js",
-    "static/js/2.2fdda272.chunk.js.map": "/form/static/js/2.2fdda272.chunk.js.map",
-    "index.html": "/form/index.html",
-    "precache-manifest.06148bc046c93a2b9e6123566550dd3e.js": "/form/precache-manifest.06148bc046c93a2b9e6123566550dd3e.js",
-    "service-worker.js": "/form/service-worker.js",
-    "static/media/smartdog.jpg": "/form/static/media/smartdog.8f1e9c73.jpg"
+    "main.js": "/static/js/main.cc61d3f7.chunk.js",
+    "main.js.map": "/static/js/main.cc61d3f7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.510e7df8.js",
+    "runtime-main.js.map": "/static/js/runtime-main.510e7df8.js.map",
+    "static/js/2.98429ae4.chunk.js": "/static/js/2.98429ae4.chunk.js",
+    "static/js/2.98429ae4.chunk.js.map": "/static/js/2.98429ae4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5f6c445a2497df6ebe7efbd59412f48a.js": "/precache-manifest.5f6c445a2497df6ebe7efbd59412f48a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/smartdog.jpg": "/static/media/smartdog.8f1e9c73.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.77cfa2be.js",
-    "static/js/2.2fdda272.chunk.js",
+    "static/js/runtime-main.510e7df8.js",
+    "static/js/2.98429ae4.chunk.js",
     "static/js/main.cc61d3f7.chunk.js"
   ]
 }
